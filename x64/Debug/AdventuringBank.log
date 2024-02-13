@@ -1,2 +1,4 @@
-﻿  AdventuringBank.cpp
+﻿  Main.cpp
+  BankFunctions.cpp
+  Generating Code...
   AdventuringBank.vcxproj -> F:\Projects\AdventuringBank\x64\Debug\AdventuringBank.exe
