@@ -1,44 +1,25 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <vector>
 #include "BankFunctions.h"
 
-int taxCalc(std::string coinType, int coinAmount) {
+std::vector<int> coinExchange(std::vector<int> coins) {
 
-    // Returns copper amount to be taxed
+    // Input coins vector:
+    // [0] = Copper, [1] = Silver, [2] = Gold, [3] = Platinum
 
-    int tax = 0;
-    int copper = 0;
+    int total_copper = (coins[0]) + (coins[1] * 10) + (coins[2] * 100) + (coins[3] * 1000);
+    int tax = int(floor(total_copper * 0.03));
+    total_copper -= tax;
 
-    if (coinType == "Copper") {
-        tax = int(floor(coinAmount * 0.03));
-        return tax;
-    }
+    int gold = (total_copper / 100);
+    int silver = ((total_copper % 100) / 10);
+    int copper = (total_copper % 10);
 
-    else if (coinType == "Silver") {
-        copper = (coinAmount * 10);
-        tax = int(floor(copper * 0.03));
-        return tax;
-    }
+    std::vector<int> consolidated_coins = {copper, silver, gold, tax};
+    return consolidated_coins;
 
-    else if (coinType == "Gold") {
-        copper = (coinAmount * 100);
-        tax = int(floor(copper * 0.03));
-        return tax;
-    }
-
-    else if (coinType == "Platinum") {
-        copper = (coinAmount * 1000);
-        tax = int(floor(copper * 0.03));
-        return tax;
-    }
-
-    else {
-        std::cout << "Error! coinType not recognized.";
-        return 0;
-    }
-}
-
-void coinExchange(int inputCoinArray[], int outputCoinArray[]) {
-
+    // Return coins vector:
+    // [0] = Copper, [1] = Silver, [2] = Gold, [3] = Tax in copper coins
 }

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projects\\AdventuringBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE82A809-8FC4-4220-911D-D67159F4F80D}|AdventuringBank.vcxproj|F:\\Projects\\AdventuringBank\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE82A809-8FC4-4220-911D-D67159F4F80D}|AdventuringBank.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE82A809-8FC4-4220-911D-D67159F4F80D}|AdventuringBank.vcxproj|F:\\Projects\\AdventuringBank\\BankFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE82A809-8FC4-4220-911D-D67159F4F80D}|AdventuringBank.vcxproj|solutionrelative:BankFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE82A809-8FC4-4220-911D-D67159F4F80D}|AdventuringBank.vcxproj|F:\\Projects\\AdventuringBank\\BankFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE82A809-8FC4-4220-911D-D67159F4F80D}|AdventuringBank.vcxproj|solutionrelative:BankFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "F:\\Projects\\AdventuringBank\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "F:\\Projects\\AdventuringBank\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-13T16:32:02.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankFunctions.cpp",
+              "DocumentMoniker": "F:\\Projects\\AdventuringBank\\BankFunctions.cpp",
+              "RelativeDocumentMoniker": "BankFunctions.cpp",
+              "ToolTip": "F:\\Projects\\AdventuringBank\\BankFunctions.cpp",
+              "RelativeToolTip": "BankFunctions.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-13T19:26:30.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankFunctions.h",
+              "DocumentMoniker": "F:\\Projects\\AdventuringBank\\BankFunctions.h",
+              "RelativeDocumentMoniker": "BankFunctions.h",
+              "ToolTip": "F:\\Projects\\AdventuringBank\\BankFunctions.h",
+              "RelativeToolTip": "BankFunctions.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-13T19:53:07.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

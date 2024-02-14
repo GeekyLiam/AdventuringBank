@@ -4,7 +4,8 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <vector>
 
-int taxCalc(std::string coinType, int coinAmount);
+std::vector<int> coinExchange(std::vector<int> coins);
 
 #endif
